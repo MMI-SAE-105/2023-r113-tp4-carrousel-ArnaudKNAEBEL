@@ -81,3 +81,35 @@
      /* espace entre les enfants */
      gap: 1rem;
  }
+
+ .carrousel_btn {
+     transition: background-color 0.3s ease;
+     background-color: #333;
+ }
+
+ .carrousel_btn:hover {
+     background-color: rgba(239, 16, 16, 0.8);
+ }
+
+ .carrousel_ecran figure {
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     border: 2px solid #000000;
+ }
+
+ .carrousel {
+     background-color: #0a59ed;
+ }
+
+ .caroussel_liste-liens a:hover {
+     text-decoration: underline;
+     color: #007bff;
+ }
+
+ .carrousel_btn {
+     background-color: rgba(255, 255, 255, 0.7);
+     color: #008cff;
+     border-radius: 50%;
+     border: 2px solid white;
+     box-shadow: 0 2px 4px rgba(229, 35, 35, 0.3);
+     cursor: pointer;
+ }
